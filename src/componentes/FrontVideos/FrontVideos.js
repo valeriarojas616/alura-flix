@@ -2,7 +2,7 @@ import './FrontVideos.css';
 
 function FrontVideos(){
     return <div className='front-videos'>
-        <h2>FRONT END</h2>
+        <h2 className='title-front'>FRONT END</h2>
         <div className='front-vid-1'>
             <div className='borrar-editar'>
                 <input className='delete-button' type='button' value='Borrar'></input>

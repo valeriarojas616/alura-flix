@@ -1,0 +1,77 @@
+{
+    "videos":[
+        {
+            "id":1,
+            "titulo":"Desafíos para encontrar el primer empleo TI",
+            "categoria":"Front End",
+            "imagen": "https://i.ytimg.com/vi/XhilZlxZ1_8/hqdefault.jpg",
+            "video":"https://youtu.be/3MVVyrKPSBc?si=UV5vjdqyTZHv0EBf",
+            "descripcion":"25 mil visualizaciones"
+        },
+        {
+            "id":2,
+            "titulo":"Que es javascript",
+            "categoria":"Front End",
+            "imagen":"https://i.ytimg.com/vi/GJfOSoaXk4s/mqdefault.jpg",
+            "video":"https://youtu.be/GJfOSoaXk4s?si=m7D8uokBF7z-8k6P",
+            "descripcion":"79 mil visualizaciones"
+        },
+        {
+            "id":3,
+            "titulo":" Inmersión Java: Tus primeros pasos con Java ",
+            "categoria":"Front End",
+            "imagen":"https://i.ytimg.com/vi/PxKO0HPbC3g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLANaza8E_jm316SBPxsoZPEui2hYw",
+            "video":"https://www.youtube.com/watch?app=desktop&v=C6ohBxRSVj4",
+            "descripcion":"78 mil visualizaciones"
+        },
+        {
+            "id":4,
+            "titulo":" Python para Data Science | Contenidos ONE ",
+            "categoria":"Back End",
+            "imagen":"https://i.ytimg.com/vi/JMKZMa0tMhQ/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCSIs66aVTsBK8iosP_lVsngjEkkQ",
+            "video":"https://youtu.be/JMKZMa0tMhQ?si=hRuI9SEX0MY2lTg3",
+            "descripcion":"66 mil visualizaciones"
+        },
+        {
+            "id":5,
+            "titulo":" Fundamentos del OCI | Contenidos ONE ",
+            "categoria":"Back End",
+            "imagen":"https://i.ytimg.com/vi/rEgSc0UqX-g/hqdefault.jpg",
+            "video":"https://youtu.be/rEgSc0UqX-g?si=CVENH2jZI-n7g2cs",
+            "descripcion":"34 mil visualizaciones"
+        },
+        {
+            "id":6,
+            "titulo":" ¿Qué es SQL y NoSQL? ",
+            "categoria":"Back End",
+            "imagen":"https://i.ytimg.com/vi/cLLKVd5CNLc/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAkfbWrdjK-FUCYCImjAoRN1tNMqQ",
+            "video":"https://youtu.be/cLLKVd5CNLc?si=ihhlxLi7rN6tAawD",
+            "descripcion":"57 mil visualizaciones"
+        },
+        {
+            "id":7,
+            "titulo":"Git y GitHub para Principiantes",
+            "categoria":"Innovacion y Gestión",
+            "imagen":"https://i.ytimg.com/vi/UuAX5azcvDQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBv35TL2JpK7AdWOdaO3y-W5LdKwA",
+            "video":"https://www.youtube.com/watch?v=-LmFK6skG7s",
+            "descripcion":"50 mil visualizaciones"
+        },
+        {
+            "id":8,
+            "titulo":"ALURA LATAM programa ONE Oracle",
+            "categoria":"Innovacion y Gestión",
+            "imagen":"https://i.ytimg.com/vi/r33nAyVktLk/sddefault.jpg",
+            "video":"https://www.youtube.com/watch?app=desktop&v=r33nAyVktLk",
+            "descripcion":"18 mil visualizaciones"
+        },
+        {
+            "id":9,
+            "titulo":" Inmersión Java: Los próximos pasos en tu carrera ",
+            "categoria":"Innovacion y Gestión",
+            "imagen":"https://i.ytimg.com/vi/PxKO0HPbC3g/sddefault.jpg?v=6633db6e",
+            "video":"https://www.youtube.com/watch?v=PxKO0HPbC3g",
+            "descripcion":"75 mil visualizaciones"
+        }
+    ]
+
+}

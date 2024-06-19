@@ -1,3 +1,12 @@
 .front-videos{
+    display: flex;
     background-color: #191919;
+}
+.title-front{
+    color: aliceblue;
+    background-color: rgba(107, 209, 255);
+    min-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding: .5rem .2rem;
 }
