@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    padding: 2rem 3rem;
+    background-color: #262626;
+    justify-content: space-between;
+}
+.seccion-buttons{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.home-button{
+    width: 45%;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: #2271D1;
+    border: solid 2px;
+    border-color: #2271D1;
+    border-radius: 10px;
+    background-color: #262626;
+    box-shadow: inset 0px 0px 5px rgba(34, 113, 209, 1);
+}
+.new-video-button{
+    width: 48%;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: #FFFFFF;
+    background-color: #262626;
+    box-shadow: inset 0px 0px 5px rgba(245, 245, 245, 1)
+}
