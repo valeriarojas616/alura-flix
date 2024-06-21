@@ -3,10 +3,68 @@
     background-color: #191919;
 }
 .title-front{
+    margin: 1rem 3rem;
     color: aliceblue;
     background-color: rgba(107, 209, 255);
-    min-width: 400px;
+    max-width: 400px;
+    font-size: 2rem;
     border-radius: 5px;
     text-align: center;
     padding: .5rem .2rem;
+}
+.front-seccion{
+    width: 100%;
+}
+.fichas-video{
+    display: flex;
+    width: 92.5%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.front-vid-1{
+    width: 32%;
+    border: solid 3px;
+    border-color: rgba(107, 209, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.title-video{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+}
+.front-image-video{
+    width: 100%;
+    border: solid 3px rgba(107, 209, 255);
+    box-shadow: inset 0px 0px 18px rgba(107, 209, 255, 1);
+}
+.descripcion-video{
+    color:aliceblue;
+    padding: 1rem;
+    margin: 0;
+}
+.borrar-editar{
+    display: flex;
+    padding: 1rem 0 .5rem 0;
+    justify-content: space-evenly;
+}
+.buttons{
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    background-color: #191919;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+}
+.delete-button{
+    background-image: url('../../../public/img/Trash-icon.png');
+    background-repeat: no-repeat;
+}
+.edit-button{
+    background-image: url('../../../public/img/Edit-icon.png');
+    background-repeat: no-repeat;
 }

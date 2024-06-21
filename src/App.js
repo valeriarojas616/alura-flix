@@ -4,6 +4,7 @@ import SeccionMain from './componentes/SeccionMain/SeccionMain';
 import FrontVideos from './componentes/FrontVideos/FrontVideos';
 import BackVideos from './componentes/BackVideos/BackVideos';
 import Innovacion from './componentes/Innovacion/Innovacion';
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FrontVideos />
       <BackVideos />
       <Innovacion />
+      <Footer />
     </div>
   );
 }

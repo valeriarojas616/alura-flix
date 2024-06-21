@@ -1,0 +1,8 @@
+.footer{
+    display: flex;
+    padding: 2rem;
+    background-color: #262626;
+}
+.logo-footer{
+    margin: auto;
+}
