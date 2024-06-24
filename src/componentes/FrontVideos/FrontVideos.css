@@ -1,5 +1,6 @@
 .front-videos{
     display: flex;
+    height: auto;
     background-color: #191919;
 }
 .title-front{
@@ -38,7 +39,8 @@
 .front-image-video{
     width: 100%;
     border: solid 3px rgba(107, 209, 255);
-    box-shadow: inset 0px 0px 18px rgba(107, 209, 255, 1);
+    height: auto;
+    object-fit: cover;
 }
 .descripcion-video{
     color:aliceblue;
@@ -67,4 +69,22 @@
 .edit-button{
     background-image: url('../../../public/img/Edit-icon.png');
     background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .title-front{
+    margin: 1rem auto;
+    }
+   .front-seccion{
+    padding: 0 1rem;
+   }
+   .fichas-video{
+    width: 100%;
+    margin: 1rem auto;
+    flex-direction: column !important;
+   }
+   .front-vid-1{
+    width: 100%;
+    max-width: 425px;
+    margin: 2rem auto;
+   }
 }
