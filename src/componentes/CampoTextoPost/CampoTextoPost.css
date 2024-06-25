@@ -1,0 +1,18 @@
+.campo-texto-post{
+    margin: 2rem 5rem;
+}
+.campo-texto-label{
+    display: block;
+    font-size:18px;
+    color: aliceblue;
+    font-weight: 600;
+    margin: .5rem auto;
+}
+.campo-texto-input{
+    width: 92%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+}
