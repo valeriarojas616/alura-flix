@@ -4,7 +4,7 @@ function BackVideos(){
     return <div className='back-videos'>
         <div className='back-seccion'>
             <h2 className='title-back'>BACK END</h2>
-            <section className='fichas-video'>
+            <section className='fichas-video-back'>
                 <div className='back-vid-1'>
                     <h3 className='title-video'>titulo</h3>
                     <img className='back-image-video' src='./img/ejemplo-video.jpg'></img>

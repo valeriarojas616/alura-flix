@@ -4,7 +4,7 @@ function Innovacion(){
     return <div className='innovacion-videos'>
         <div className='innovacion-seccion'>
             <h2 className='title-innovacion'>INNOVACION Y GESTIÓN</h2>
-            <section className='fichas-video'>
+            <section className='fichas-video-innovacion'>
                 <div className='innovacion-vid-1'>
                     <h3 className='title-video'>titulo</h3>
                     <img className='inn-image-video' src='./img/ejemplo-video.jpg'></img>

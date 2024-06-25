@@ -4,7 +4,7 @@ function FrontVideos(){
     return <div className='front-videos'>
         <div className='front-seccion'>
             <h2 className='title-front'>FRONT END</h2>
-            <section className='fichas-video'>
+            <section className='fichas-video-front'>
                 <div className='front-vid-1'>
                     <h3 className='title-video'>titulo</h3>
                     <img className='front-image-video' src='./img/ejemplo-video.jpg'></img>

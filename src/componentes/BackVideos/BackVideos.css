@@ -16,7 +16,7 @@
 .back-seccion{
     width: 100%;
 }
-.fichas-video{
+.fichas-video-back{
     display: flex;
     width: 92.5%;
     flex-direction: row;
@@ -76,15 +76,21 @@
     }
    .back-seccion{
     padding: 0 1rem;
+    overflow-x: auto;
    }
-   .fichas-video{
-    width: 100%;
+   .fichas-video-back{
+    display:flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: auto;
     margin: 1rem auto;
-    flex-direction: column !important;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 1rem;
    }
    .back-vid-1{
     width: 100%;
-    max-width: 425px;
+    flex: 0 0 auto;
     margin: 2rem auto;
    }
 }
