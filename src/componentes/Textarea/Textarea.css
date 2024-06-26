@@ -1,0 +1,19 @@
+.textarea-video{
+    margin: 2rem 5rem;
+}
+.textarea-label{
+    display: block;
+    font-size:18px;
+    color: aliceblue;
+    font-weight: 600;
+    margin: .5rem auto;
+}
+.textarea-textarea{
+    width: 92%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    color: #82868A;
+    font-size: 18px;
+}
+

@@ -1,0 +1,19 @@
+.lista-opciones-post{
+    margin: 2rem 5rem;
+}
+.lista-opciones-label{
+    display: block;
+    font-size:18px;
+    color: aliceblue;
+    font-weight: 600;
+    margin: .5rem auto;
+}
+.lista-opciones-select{
+    width: 97%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    color: #82868A;
+    font-size: 20px;
+}
+
