@@ -1,5 +1,5 @@
 .lista-opciones-post{
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
 }
 .lista-opciones-label{
     display: block;
@@ -9,9 +9,9 @@
     margin: .5rem auto;
 }
 .lista-opciones-select{
-    width: 97%;
+    width: 92%;
     background-color: #000000;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     color: #82868A;
     font-size: 20px;

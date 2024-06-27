@@ -1,5 +1,5 @@
 .textarea-video{
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
 }
 .textarea-label{
     display: block;
@@ -15,5 +15,6 @@
     border-radius: 5px;
     color: #82868A;
     font-size: 18px;
+    box-sizing: border-box;
 }
 

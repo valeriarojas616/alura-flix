@@ -1,5 +1,5 @@
 .campo-texto-post{
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
 }
 .campo-texto-label{
     display: block;
@@ -11,8 +11,9 @@
 .campo-texto-input{
     width: 92%;
     background-color: #000000;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     color: aliceblue;
     font-size: 20px;
+    box-sizing: border-box;
 }
