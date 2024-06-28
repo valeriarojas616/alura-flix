@@ -4,8 +4,6 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    border-top: solid 2px;
-    border-color: rgba(107, 209, 255, .7);
 }
 .main::before{
     position: absolute;

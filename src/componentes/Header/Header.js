@@ -15,9 +15,8 @@ function Header(){
     return <div><header className='header'>
         <img className='logo' src="/img/aluraflix-logo.png" alt='AluraFlix'/>
         <div className='seccion-buttons'>
-            <a className='home-href' href='./App.js'><button className='home-button' action='App.js'>HOME</button></a>
             
-            <BotonNuevoVideo cambiarMostrar={cambiarMostrar}/>
+            <BotonNuevoVideo mostrarFormulario={mostrarFormulario} cambiarMostrar={cambiarMostrar}/>
 
         </div>
     </header> 

@@ -9,7 +9,7 @@ const BotonNuevoVideo = (props)=>{
     
 
     return <section className='new-button-section'>
-        <button className='new-video-button' onClick={props.cambiarMostrar}>NUEVO VIDEO</button>
+        <button className='new-video-button' onClick={props.cambiarMostrar}>{props.mostrarFormulario?'HOME' : 'NUEVO VIDEO'}</button>
         </section>
 }
 

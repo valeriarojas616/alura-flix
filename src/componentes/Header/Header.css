@@ -3,28 +3,11 @@
     padding: 2rem;
     background-color: #262626;
     justify-content: space-between;
+    border-bottom: solid 2px rgba(107, 209, 255);
 }
 .seccion-buttons{
-    width: 35%;
+    width: 20%;
     display: flex;
-    justify-content: space-between;
-}
-.home-href{
-    width: 45%;
-}
-.home-button{
-    width: 100%;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 500;
-    font-size: large;
-    color: #2271D1;
-    border: solid 2px;
-    border-color: #2271D1;
-    border-radius: 10px;
-    background-color: #262626;
-    box-shadow: inset 0px 0px 5px rgba(34, 113, 209, 1);
-    padding: .8rem;
-    cursor: pointer;
 }
 .new-video-button{
     width: 100%;
@@ -41,7 +24,7 @@
     cursor: pointer;
 }
 .new-button-section{
-    width: 45%;
+    width: 100%;
 }
 @media(max-width:768px){
     .header{
