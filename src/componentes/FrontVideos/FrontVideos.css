@@ -20,7 +20,7 @@
     display: flex;
     width: 92.5%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin: 2rem auto;
 }
 .front-vid-1{
@@ -29,6 +29,7 @@
     border-color: rgba(107, 209, 255);
     border-radius: 10px;
     text-align: center;
+    margin-right: 1rem;
 }
 .title-video{
     color: aliceblue;

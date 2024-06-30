@@ -17,7 +17,13 @@ const FormularioPost = ()=>{
 
     const ManejarEnvio = (event)=>{
         event.preventDefault();
-        console.log("envio");
+        let datosEnviar = {
+            titulo: titulo,
+            cateroria: categoriaVid,
+            imagen: imgVideo,
+            video: urlVideo
+        }
+        console.log(datosEnviar)
     }
 
     return <div><seccion className="section-form-post">
@@ -30,8 +36,10 @@ const FormularioPost = ()=>{
             actualizarValor={setTitulo}/>
 
             <ListaOpcionesPost 
-            required valor={categoriaVid} 
-            actualizarValor={setCategoriaVid}/>
+            required 
+            valor={categoriaVid} 
+            actualizarValor={setCategoriaVid}
+            />
 
             <CampoTextoPost 
             label="Imagen" 
@@ -46,8 +54,9 @@ const FormularioPost = ()=>{
             actualizarValor={setUrlVideo}/>
 
             <Textarea 
-            valor={descripcionVideo} 
-            actualizarValor={setDescripcionVideo}/>
+            valor={descripcionVideo}
+            actualizarValor={setDescripcionVideo}
+            />
             <BotonPost/>
         </form>
     </seccion>

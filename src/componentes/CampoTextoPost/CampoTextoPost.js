@@ -15,7 +15,6 @@ const CampoTextoPost = (props)=>{
         <input 
         className="campo-texto-input" 
         placeholder={props.placeholderpost} 
-        value={props.valor}
         onChange={recibirValor}
         ></input>
     </div>

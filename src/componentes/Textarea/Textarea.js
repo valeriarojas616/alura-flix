@@ -1,9 +1,16 @@
 import './Textarea.css'
 
-const Textarea = ()=>{
+
+
+const Textarea = (props)=>{
+
+    const recibirDescripcion = (event)=>{
+        props.actualizarValor(event.target.value)
+    }
+
     return <div className="textarea-video">
         <label className="textarea-label">Descripción</label>
-        <textarea className="textarea-textarea">Descripción del Video</textarea>
+        <textarea className="textarea-textarea" placeholder='Descripción del Video' onChange={recibirDescripcion}></textarea>
     </div>
 }
 
