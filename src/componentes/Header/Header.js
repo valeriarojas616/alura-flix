@@ -6,13 +6,6 @@ import FormularioPost from '../FormularioPost/FormularioPost';
 //header va a recibir las props que le pasamos por medio de 'datos'
 function Header(props){
 
-    const[videos, setVideos]= useState([]);
-
-    const registrarVideo = (video)=>{
-        console.log(video);
-        //Spread operator
-        setVideos([...videos, video])
-    }  
 
     const [mostrarFormulario, actualizarMostrar] = useState(false);
   
@@ -35,7 +28,8 @@ function Header(props){
     mostrarFormulario === true ? 
     <FormularioPost 
     categorias={props.datos.map((categoria) => categoria.titulo)}
-    registrarVideo={registrarVideo}
+    //la funcion registrar video y crear video se declaro en app.js aqui la mandamos a llamar para capturar los datos del formulario
+    registrarVideo={props.registrarVideo}
     />: <div></div>
     }
     </div>
