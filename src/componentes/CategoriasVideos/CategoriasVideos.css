@@ -1,0 +1,21 @@
+.categorias-videos{
+    display: inline-block;
+    height: 100%;
+    background-color: #191919;
+    width: 100%;
+    vertical-align: top;
+}
+.titulo-categoria{
+    margin: 1rem 2rem;
+    color: aliceblue;
+    max-width: 400px;
+    font-size: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: .5rem 2rem;
+}
+@media(max-width:768px){
+.titulo-categoria{
+    margin: 1rem auto;
+}
+}

@@ -1,18 +1,14 @@
 import FichasVideo from '../FichasVideo/FichasVideo';
+import './SectionVideos.css'
 
-function SectionVideos({ title, classNamePrefix }) {
+function SectionVideos() {
 
   return (
-    <div className={`${classNamePrefix}-videos`}>
-      <div className={`${classNamePrefix}-seccion`}>
-        <h2 className={`title-${classNamePrefix}`}>{title}</h2>
-        <section className={`fichas-video-${classNamePrefix}`}>
-          <FichasVideo classNamePrefix={classNamePrefix}/>
-          <FichasVideo classNamePrefix={classNamePrefix}/>
-          <FichasVideo classNamePrefix={classNamePrefix}/>
+      <div className='section'>
+        <section className='fichas-video'>
+          <FichasVideo />
         </section>
       </div>
-    </div>
   );
 }
 

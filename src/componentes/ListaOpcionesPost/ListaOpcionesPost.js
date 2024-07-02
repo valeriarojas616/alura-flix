@@ -23,8 +23,10 @@ const ListaOpcionesPost = (props)=>{
             })}
             */}
             {/**Simplificacion del map*/}
-            {categoriasVideosPost.map((categoriasVideosPost, index) => <option key={index}>{categoriasVideosPost}</option>
-            )}
+            {props.categorias.map((categoria, index) => <option key={index} value={categoria}>{
+            categoria}</option>
+            )
+            }
         </select>
     </div>
 }

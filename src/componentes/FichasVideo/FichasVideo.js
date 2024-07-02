@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import BotonBorrar from "../BotonBorrar/BotonBorrar";
+import './FichasVideo.css'
 
-function FichasVideo({ classNamePrefix }) {
+function FichasVideo() {
 
   const [fichaVisible, borrarFicha] = useState(true);
 
@@ -9,14 +10,14 @@ function FichasVideo({ classNamePrefix }) {
       borrarFicha(false);
     }
     if(!fichaVisible){
-      return null;
+      return null
     }
 
 
     return (
-      <div className={`${classNamePrefix}-vid-1`}>
+      <div className='vid-1'>
         <h3 className='title-video'>titulo</h3>
-        <img className={`${classNamePrefix}-image-video`} src='./img/ejemplo-video.jpg' alt="Video thumbnail" />
+        <img className='image-video' src='./img/ejemplo-video.jpg' alt="Video thumbnail" />
         <p className='descripcion-video'>
           27 mil visualizaciones
           <div className='borrar-editar'>

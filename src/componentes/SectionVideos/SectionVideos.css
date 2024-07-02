@@ -1,0 +1,26 @@
+.section{
+    width: 100%;
+}
+.fichas-video{
+    display: flex;
+    width: 92.5%;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin: 2rem auto;
+}
+@media(max-width:768px){
+.section{
+    padding: 0 1rem;
+    overflow-x: auto;
+}
+.fichas-video{
+    display:flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: auto;
+    margin: 1rem auto;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 1rem;
+}
+}

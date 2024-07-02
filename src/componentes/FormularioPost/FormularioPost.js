@@ -6,24 +6,30 @@ import Textarea from "../Textarea/Textarea";
 import BotonPost from "../BotonPost/BotonPost";
 import Footer from "../Footer/Footer";
 
-const FormularioPost = ()=>{
+const FormularioPost = (props)=>{
 
     const[titulo, setTitulo] = useState('');
     const[categoriaVid, setCategoriaVid] =useState('');
     const[imgVideo, setImgVideo] = useState('');
     const[urlVideo, setUrlVideo] = useState('');
     const[descripcionVideo, setDescripcionVideo] = useState('');
+
+    //capturamos la propiedad de FormularioPost que se declaro en Header
+    const {registrarVideo} = props;
     
 
     const ManejarEnvio = (event)=>{
         event.preventDefault();
+        console.log('envio')
         let datosEnviar = {
             titulo: titulo,
             cateroria: categoriaVid,
             imagen: imgVideo,
-            video: urlVideo
+            video: urlVideo,
+            descripcion: descripcionVideo
         }
-        console.log(datosEnviar)
+        //tomamos la prop declarada para recibir los datos del formulario
+        registrarVideo(datosEnviar);
     }
 
     return <div><seccion className="section-form-post">
@@ -39,6 +45,7 @@ const FormularioPost = ()=>{
             required 
             valor={categoriaVid} 
             actualizarValor={setCategoriaVid}
+            categorias={props.categorias}
             />
 
             <CampoTextoPost 
