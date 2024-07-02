@@ -23,7 +23,7 @@ const FormularioPost = (props)=>{
         console.log('envio')
         let datosEnviar = {
             titulo: titulo,
-            cateroria: categoriaVid,
+            categoria: categoriaVid,
             imagen: imgVideo,
             video: urlVideo,
             descripcion: descripcionVideo

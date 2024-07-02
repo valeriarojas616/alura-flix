@@ -40,7 +40,7 @@ function App() {
     categorias.map( (categoria) => <CategoriasVideos 
     datos={categoria} 
     key={categoria.titulo}
-    videos={videos}
+    videos={videos.filter(video => video.categoria === categoria.titulo)}
     />
      )
     }
