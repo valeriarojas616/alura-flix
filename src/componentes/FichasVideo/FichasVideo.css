@@ -1,34 +1,53 @@
-.vid-1{
+.vid-1 {
     width: 32%;
-    border: solid 3px;
-    border-color: rgba(107, 209, 255);
     border-radius: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-right: 1rem;
-}
-.title-video{
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 3px;
+  }
+  
+  .title-video {
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 2vw;
     margin: 0;
     padding: 1rem;
-}
-.image-video{
+    text-align: center;
+    min-height: 4em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-video {
     width: 100%;
-    border: solid 3px rgba(107, 209, 255);
-    height: auto;
+    height: 200px; 
     object-fit: cover;
-}
-.descripcion-video{
-    color:aliceblue;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    object-fit:contain;
+  }
+  
+  .descripcion-video {
+    color: aliceblue;
     padding: 1rem;
     margin: 0;
-}
-.borrar-editar{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .borrar-editar {
     display: flex;
     padding: 1rem 0 .5rem 0;
     justify-content: space-evenly;
-}
-.buttons{
+    margin-top: auto;
+  }
+  
+  .buttons {
     width: 6rem;
     height: 2rem;
     font-size: 1.2rem;
@@ -37,15 +56,23 @@
     border: none;
     text-align: right;
     cursor: pointer;
-}
-.edit-button{
+  }
+  
+  .edit-button {
     background-image: url('../../../public/img/Edit-icon.png');
     background-repeat: no-repeat;
-}
-@media(max-width:768px){
-    .vid-1{
-    width: 100%;
-    flex: 0 0 auto;
-    margin: 2rem auto;
+  }
+  
+  @media(max-width:768px) {
+    .vid-1 {
+      min-width: 100%;
+      margin: 1rem 0;
+      flex: 0 0 auto;
     }
-}
+    .title-video{
+        font-size: 1.5rem;
+    }
+    .image-video{
+        height: 100%;
+    }
+  }

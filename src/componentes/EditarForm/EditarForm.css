@@ -1,0 +1,38 @@
+.editar-form{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.title-edit{
+    color: aliceblue;
+    margin: 0;
+    padding-top: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.input-edit{
+    padding: .5rem;
+    width: 86%;
+    margin: auto;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.label-edit{
+    color: aliceblue;
+    margin-left: .5rem;
+    font-size: 1rem;
+}
+.editar-form-buttons{
+    margin: auto;
+}
+.editar-form-buttons button{
+    padding: .6rem;
+    margin: auto .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #191919;
+    color: aliceblue;
+    border-radius: 10px;
+    border: solid 2px aliceblue;
+    box-shadow: inset 0px 0px 5px rgb(255, 255, 255, 1);
+}

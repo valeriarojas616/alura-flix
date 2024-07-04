@@ -2,12 +2,6 @@ import './ListaOpcionesPost.css';
 
 const ListaOpcionesPost = (props)=>{
 
-    const categoriasVideosPost = [
-        "Front End",
-        "Back End",
-        "Innovacion y gestión"
-    ]
-
     const cambioCategoria = (event)=>{
         props.actualizarValor(event.target.value);
     }
