@@ -1,0 +1,5 @@
+.delete-button{
+    background-image: url('../../../public/img/Trash-icon.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}

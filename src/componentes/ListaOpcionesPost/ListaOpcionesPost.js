@@ -2,12 +2,6 @@ import './ListaOpcionesPost.css';
 
 const ListaOpcionesPost = (props)=>{
 
-    const categoriasVideosPost = [
-        "Front End",
-        "Back End",
-        "Innovacion y gestión"
-    ]
-
     const cambioCategoria = (event)=>{
         props.actualizarValor(event.target.value);
     }
@@ -23,8 +17,10 @@ const ListaOpcionesPost = (props)=>{
             })}
             */}
             {/**Simplificacion del map*/}
-            {categoriasVideosPost.map((categoriasVideosPost, index) => <option key={index}>{categoriasVideosPost}</option>
-            )}
+            {props.categorias.map((categoria, index) => <option key={index} value={categoria}>{
+            categoria}</option>
+            )
+            }
         </select>
     </div>
 }

@@ -1,42 +1,64 @@
 import './App.css';
+import React, { useEffect, useState } from "react";
 import Header from './componentes/Header/Header';
 import SeccionMain from './componentes/SeccionMain/SeccionMain';
-import FrontVideos from './componentes/FrontVideos/FrontVideos';
-import BackVideos from './componentes/BackVideos/BackVideos';
-import Innovacion from './componentes/Innovacion/Innovacion';
 import Footer from './componentes/Footer/Footer';
+import CategoriasVideos from './componentes/CategoriasVideos/CategoriasVideos';
+import {buscar, api} from './api/api';
 
-const categorias = [
-  { categoria: "FrontEnd",
-    color:"rgba(107, 209, 255)"
-  },
-  {
-    categoria: "BackEnd",
-    color: "#00c86f"
-  },
-  {
-    categoria: "Innovacion y Gestion",
-    color: "#ffba05"
-  }
-]
+
+
+
 
 function App() {
+
+  const[videos, setVideos]= useState([]);
+
+  useEffect(()=>{
+    buscar('/videos', setVideos);
+  }, []);
+
+  const registrarVideo = async (video)=>{
+    try{
+      const response = await api.post('/videos', video);
+      //Spread operator
+      setVideos([...videos, response.data]);
+      console.log('video registrado', response.data);
+    } catch(error){
+      console.error('error en el video', error);
+    }  
+  }; 
+
+  const categorias = [
+    { titulo: "Front End",
+      color:"rgba(107, 209, 255)"
+    },
+    {
+      titulo: "Back End",
+      color: "#00c86f"
+    },
+    {
+      titulo: "Innovacion y Gestión",
+      color: "#ffba05"
+    }
+  ];
  
 
   return (
     <div>
-      <Header />
+      <Header datos={categorias} registrarVideo={registrarVideo}/>
       <SeccionMain />
-    {//
-     // categorias.map( (categoria)=>{
-     //   console.log(categoria)
-     //   return <FrontVideos/>
-     // } )
-    }
+        {//siempre que usamos map requerimos una key, ademas nuestra arrow function no requiere parentesis ni la palabra return, pues para retornar valores solo basta declararla de la siguiente manera
+        categorias.map( (categoria) => 
+        <CategoriasVideos 
+          datos={categoria} 
+          key={categoria.titulo}
+          videos={videos.filter(video => video.categoria === categoria.titulo)}
+        />
+        )
+        }
       
-      <FrontVideos />
-      <BackVideos />
-      <Innovacion />
+     
       <Footer />
     </div>
   );
